@@ -3,19 +3,23 @@
 ### Overview  
 
 * Intro  
-* Figma  
-* Images  
+* Programs  
+* Project Pitch Video  
   
 **Intro**
   
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
+This project is going to be a social media website for image-sharing. Users will be able to post photos with captions and interact with others' pictures with a like button. 
   
-**Figma**  
+**Programs**  
+
+The sample profile for this project is on the link below for Figma. The code is written on VSCode and shared through GitHub. I have included a small video introduction for this project using Loom and uploaded to GoogleDrive, below. The next steps will be to add JavaScript to this project.
   
 * [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
   
-**Images**  
+* [Link to the project on GitHub Pages](https://github.com/artheart1023/se_project_spots) 
+
+**Project Pitch Video**  
   
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+Here is a small video where I talk a little bit about the project, challenges, and the direction going forward.
+
+* [Link to project pitch video](https://drive.google.com/file/d/13_ekqEnytVYnO56xYzg5sHZrcZYlHpZA/view?usp=drive_link)
