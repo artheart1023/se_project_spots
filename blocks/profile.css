@@ -39,7 +39,7 @@
   -webkit-box-orient: vertical;
 }
 
-.profile__edit-button {
+.profile__edit-btn {
   margin-top: auto;
   background-color: #FCF5E5;
   max-width: 108px;
@@ -52,7 +52,7 @@
   border-style: none;
 }
 
-.profile__edit-button:hover {
+.profile__edit-btn:hover {
   opacity: 1;
 }
 
