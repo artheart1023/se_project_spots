@@ -67,6 +67,7 @@
   border-color: #2121214d;
   max-width: 630px;
   width: 100%;
+  cursor: pointer;
 }
 
 .modal__input::placeholder {
