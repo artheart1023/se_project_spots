@@ -50,6 +50,7 @@
   font-size: 16px;
   line-height: 1;
   border-style: none;
+  cursor: pointer;
 }
 
 .profile__edit-btn:hover {
@@ -70,6 +71,7 @@
   line-height: 1;
   width: 149px;
   height: 52px;
+  cursor: pointer;
 }
 
 .profile__add-btn:hover {

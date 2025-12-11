@@ -38,6 +38,7 @@
   background-image: url(../images/Close\ icon.png);
   background-position: center;
   border: none;
+  cursor: pointer;
 }
 
 .modal__title {
@@ -80,9 +81,10 @@
   padding: 18px 32px;
   font-size: 16px;
   color: #FCF5E5;
+  cursor: pointer;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .modal__container {
     padding: 12px;
     max-width: 300px;
