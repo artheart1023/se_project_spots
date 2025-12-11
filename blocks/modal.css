@@ -82,7 +82,6 @@
   color: #FCF5E5;
 }
 
-/*add media queries for title and save button and paddings or margins 300px*/
 
 @media screen and (max-width: 320px) {
   .modal__container {
