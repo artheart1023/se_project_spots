@@ -22,4 +22,4 @@ The sample profile for this project is on the link below for Figma. The code is 
   
 Here is a small video where I talk a little bit about the project, challenges, and the direction going forward.
 
-* [Link to project pitch video](https://drive.google.com/file/d/1GftVaaDZ-eH-UX4f-1X4hLWnYsCLa0-Y/view?usp=drive_link)
+* [Link to project pitch video](https://drive.google.com/file/d/1lJllXLdJlVF19Bpj96X-qlOJtKGztAHA/view?usp=drive_link)
