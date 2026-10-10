@@ -1,5 +1,3 @@
-//console.log("hello, world");
-
 const initialCards = [
   {
     name: "Val Thorens",
@@ -68,13 +66,13 @@ function getCardElement(data) {
 
   cardLikeBtnEl.addEventListener("click", () => {
       cardLikeBtnEl.classList.toggle("card__like-button_active");
-  } )
+  })
 
   const cardDeleteBtnEl = cardElement.querySelector(".card__delete-button");
 
   cardDeleteBtnEl.addEventListener("click", () => {
       cardElement.remove();
-  } )
+  })
 
   cardImageEl.addEventListener("click", () => {
     previewModalImageEl.src = data.link;
@@ -82,16 +80,16 @@ function getCardElement(data) {
     previewModalCaptionEl.textContent = data.name;
 
     openModal(previewModal);
-  } )
+  })
 
   return cardElement;
 }
 
 function openModal(modal) {
-  modal.classList.add("modal__is-opened");
+  modal.classList.add("modal_is-opened");
 }
 function closeModal(modal) {
-  modal.classList.remove("modal__is-opened");
+  modal.classList.remove("modal_is-opened");
 }
 
 editProfileBtn.addEventListener("click", function () {
@@ -130,6 +128,10 @@ editProfileFormEl.addEventListener('submit', handleProfileFormSubmit);
 function handleAddCardSubmit(evt) {
   evt.preventDefault();
 
+  if (!cardLinkInput.value || !cardNameInput.value) {
+  return;
+}
+
   const inputValues = {
     name: cardNameInput.value,
     link: cardLinkInput.value,
@@ -138,8 +140,8 @@ function handleAddCardSubmit(evt) {
   const cardElement = getCardElement(inputValues);
 
     cardsList.prepend(cardElement);
-
-  closeModal(newPostModal);
+    addCardFormEl.reset();
+    closeModal(newPostModal);
 }
 
 addCardFormEl.addEventListener('submit', handleAddCardSubmit);
