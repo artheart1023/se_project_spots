@@ -60,7 +60,7 @@
 }
 
 .card__like-button:hover {
-  opacity: 100%;
+  opacity: 1;
 }
 
 .card__like-button_active {
