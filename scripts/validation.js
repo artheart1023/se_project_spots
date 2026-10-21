@@ -50,9 +50,13 @@ const disableButton = (buttonEl, config) => {
 };
 
 const resetValidation = (formEl, inputList, config) => {
+  const buttonEl = formEl.querySelector(config.submitButtonSelector);
+
   inputList.forEach((input) => {
     hideInputError(formEl, input, config);
   });
+
+  disableButton(buttonEl, config);
 };
 
 const setEventListeners = (formEl, config) => {
