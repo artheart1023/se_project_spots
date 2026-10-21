@@ -18,8 +18,13 @@ The sample profile for this project is on the link below for Figma. The code is 
   
 * [Link to the project on GitHub Pages](https://artheart1023.github.io/se_project_spots/)
 
-**Project Pitch Video**  
+**Project Pitch Videos**  
   
 Here is a small video where I talk a little bit about the project, challenges, and the direction going forward.
 
 * [Link to project pitch video](https://drive.google.com/file/d/1lJllXLdJlVF19Bpj96X-qlOJtKGztAHA/view?usp=drive_link)
+
+Here is my second pitch video where I sum up the project, updates, functions, challenges, and additions I would hope to learn how to do in the future.
+
+**Kayla_Vanhoose_ProjectPitch_Spots-2**
+* [Link to project pitch video 2 after validation](https://drive.google.com/file/d/1__U_mO5L7E-x78XwatE6sX6XgHFlXwKZ/view?usp=sharing)
